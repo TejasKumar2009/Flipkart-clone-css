@@ -1,0 +1,87 @@
+/* <1300 --> Navbar Chhota karna hai */
+/* <850 --> Navbar aur jada Chhota karna hai */
+
+@media only screen and (max-width: 1300px) {
+   .nav-logo {
+      height: 35px;
+      margin-left: 0px;
+    }
+   .offers{
+      overflow-x: auto;
+   }
+
+ }
+@media only screen and (max-width: 850px) {
+   .navbar {
+     display: flex;
+     height: 15vh;
+     align-items: flex-start;
+   }
+   
+   .nav-logo {
+      display: flex;
+      height: 11vh;
+      margin-left: 0px;
+      margin-top: 4vh;
+    }
+    .search{
+       position: relative;
+      display: flex;
+      height: 100%;
+      align-items: center;
+    }
+    .search .search-btn{
+      right: 2vw;
+      top: 5.5vh;
+    }
+    .search .nav-input {
+      height: 7.5vh;
+    }
+
+    .login-btn{
+       display: none;
+    }
+    .login-icon{
+       display: inline;
+       position: absolute;
+       top: 5.3vh;
+       right: -8vw;
+    }
+
+    .cart-btn span{
+      display: none;
+    }
+    .cart-btn img {
+      position: absolute;
+      top: 5vh;
+      right: -17vw;
+    }
+
+    .more-btn{
+       display: none;
+    }
+    .more-icon{
+       display: inline;
+       position: absolute;
+       right: -26vw;
+       top: 2vh;
+   
+    }
+    .right-navbar{
+       display: flex;
+       align-items: center;
+       position: relative;
+    }
+
+   .offers{
+      overflow-x: auto;
+   }
+
+ }
+
+ /* Todo */
+ /* @media only screen and (max-width: 650px) {
+    .search{
+
+    }
+ } */
